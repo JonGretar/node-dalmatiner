@@ -10,8 +10,8 @@ Install the module with: `npm install dalmatiner`
 ```javascript
 var Dalmatiner = require('dalmatiner');
 var conn = new Dalmatiner('tcp://localhost:5555', 'mybucket');
-conn.sendData('my.key', [100]);
-conn.sendData('my.key', [120, 300]);
+conn.sendData(['website', 'root', 'reponse_time'], [100]);
+conn.sendData(['website', 'root', 'reponse_time'], [120, 300]);
 ```
 
 ## License
