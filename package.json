@@ -1,7 +1,7 @@
 {
   "name": "dalmatiner",
   "description": "DalmatinerDB Client",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/JonGretar/node-dalmatiner",
   "author": {
     "name": "Jón Grétar Borgþórsson",
